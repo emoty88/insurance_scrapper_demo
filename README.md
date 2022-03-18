@@ -2,8 +2,8 @@
 
 ## Overview
 
-Data scrapper from web with requests and BeatifulSoup. 
-I developed this simple tool for technical interview with a software company.
+Data scrapper from the web with requests and BeautifulSoup. 
+I developed this simple tool for a technical interview with a software company.
 
 ## How To Run
 
