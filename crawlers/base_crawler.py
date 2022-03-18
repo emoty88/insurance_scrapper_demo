@@ -21,7 +21,7 @@ class BaseCrawler():
     
     def create_soup(self, url):
         page = self.s.get(url)
-        print('Getting page: ', page.request.url)
+        # print('Getting page: ', page.request.url)
         # Check response status for network issue or other potencial problems
         if page.ok:
             self.soup = BeautifulSoup(page.content, 'html.parser')

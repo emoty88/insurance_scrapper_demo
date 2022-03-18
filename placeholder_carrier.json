@@ -18,7 +18,7 @@
             "status": "pending_cancelation",
             "effective_date": "9/10/2021",
             "termination_date": "1/18/2022",
-            "last_payment_date": ""
+            "last_payment_date": "9/10/2021"
         },
         {
             "id": "j310ut4g14",
@@ -26,7 +26,7 @@
             "status": "endorsement_pending",
             "effective_date": "9/10/2021",
             "termination_date": "4/27/2022",
-            "last_payment_date": ""
+            "last_payment_date": "9/10/2021"
         },
         {
             "id": "s0243utqc9",
@@ -34,7 +34,7 @@
             "status": "endorsement_pending",
             "effective_date": "9/10/2021",
             "termination_date": "7/7/2022",
-            "last_payment_date": ""
+            "last_payment_date": "9/10/2021"
         },
         {
             "id": "fanbk4an5k",
@@ -42,7 +42,7 @@
             "status": "active",
             "effective_date": "9/9/2021",
             "termination_date": "11/20/2021",
-            "last_payment_date": ""
+            "last_payment_date": "9/10/2021"
         },
         {
             "id": "6vzdbmyptv",
@@ -50,7 +50,7 @@
             "status": "endorsement_pending",
             "effective_date": "9/9/2021",
             "termination_date": "3/9/2022",
-            "last_payment_date": ""
+            "last_payment_date": "9/10/2021"
         },
         {
             "id": "yg1rv0s70s",
@@ -58,7 +58,7 @@
             "status": "endorsement_pending",
             "effective_date": "9/9/2021",
             "termination_date": "12/10/2021",
-            "last_payment_date": ""
+            "last_payment_date": "9/10/2021"
         },
         {
             "id": "9vkwjijmvt",
@@ -66,7 +66,7 @@
             "status": "endorsement_pending",
             "effective_date": "9/10/2021",
             "termination_date": "3/8/2022",
-            "last_payment_date": ""
+            "last_payment_date": "9/10/2021"
         },
         {
             "id": "wpk6r2j1yk",
@@ -74,7 +74,7 @@
             "status": "pending_cancelation",
             "effective_date": "9/10/2021",
             "termination_date": "6/18/2022",
-            "last_payment_date": ""
+            "last_payment_date": "9/9/2021"
         },
         {
             "id": "rzk89nxr50",
@@ -82,7 +82,7 @@
             "status": "endorsement_pending",
             "effective_date": "9/10/2021",
             "termination_date": "12/22/2021",
-            "last_payment_date": ""
+            "last_payment_date": "9/10/2021"
         },
         {
             "id": "h2mf6vi2q9",
@@ -90,7 +90,7 @@
             "status": "claim_pending",
             "effective_date": "9/10/2021",
             "termination_date": "1/24/2022",
-            "last_payment_date": ""
+            "last_payment_date": "9/10/2021"
         },
         {
             "id": "iqgho6bp5s",
@@ -98,7 +98,7 @@
             "status": "active",
             "effective_date": "9/10/2021",
             "termination_date": "1/28/2022",
-            "last_payment_date": ""
+            "last_payment_date": "9/10/2021"
         }
     ]
 }

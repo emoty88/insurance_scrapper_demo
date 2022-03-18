@@ -57,7 +57,6 @@ class PlaceholderCarrierPolicy(BaseCrawler):
     
     def run(self):
         self.get_policy_data()
-        print(len(self.policies))
         return self.policies
         
 
@@ -67,34 +66,30 @@ class PlaceholderCarrierPolicy(BaseCrawler):
         self.table = policy_soup.find('table')
         policy_rows = self.table.find_all('tr',{'class':'policy-info-row'})
         for policy_row in policy_rows:
+            
             policy = {
                 'id': policy_row.find_all('td')[0].text,
                 'premium': policy_row.find_all('td')[1].text,
                 'status': policy_row.find_all('td')[2].text,
                 'effective_date':  policy_row.find_all('td')[3].text,
                 'termination_date': policy_row.find_all('td')[4].text,
-                'last_payment_date':'',
+                'last_payment_date': policy_row.next_sibling.find('div').contents[1].replace('Last Payment Date: ',''),
             }
             self.policies.append(policy)
         
         next_page = self.check_next_page()
-        print('asd')
         if next_page:
             # Get next page and recursivly call this function to get all pages
             self.create_soup(next_page)
-            print(next_page)
             next_page_data = self.get_policy_data()
-            print(next_page_data)
             # self.policies = self.policies + next_page_data
 
     def check_next_page(self):
 
         # Check Get paging links
         links = self.table.find('tfoot').find_all('a')
-        print(links)
         for l in links:
             # checking both link if Next > is a then return the link
-            print(l.text)
             if l.text == 'Next >':
                 return f"{self.host}{l['href']}"
         
